@@ -1,0 +1,15 @@
+<%- include("partials/header")  -%>
+
+<h2> &lt&lt To ADD YOUR OWN BLOG CLICK ON COMPOSE
+    </h2>
+
+<%   post.forEach((result)=>{  %>
+    <h1><%=result.title%></h1>
+    <p> <%=result.content.substring(0,300)+"..."%>
+    <a href="posts/<%= result._id%>">Read More</a>
+    </p>
+<% });  %>
+
+
+
+<%- include("partials/footer")  -%>
