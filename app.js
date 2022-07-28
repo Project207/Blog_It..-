@@ -87,6 +87,6 @@ app.get("/posts/:postId",function(req,res){
 
 
 
-app.listen(4000,function(req,res){
-    console.log("Server is runnig on port 4000")
+app.listen(process.env.PORT || 3000,function(req,res){
+    console.log("Server is runnig on port 3000")
 })
