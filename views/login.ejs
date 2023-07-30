@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+ 
+  <link rel="stylesheet" href="css/styles2.css">
+</head>
+
+<body>
+
+
+<div class="center">
+  <h1>Login</h1>
+  <form method="post" action="/login" >
+    <div class="txt_field">
+  
+      <input type="email" class="form-control" name="username">
+      <span></span>
+      <label>Username</label>
+    </div>
+    <div class="txt_field">
+      
+      <input type="password" class="form-control" name="password">
+      <span></span>
+      <label>Password</label>
+    </div>
+    <div class="pass">Forgot Password?</div>
+    <input type="submit" value="Login">
+    <div class="signup_link">
+      Not a member? <a href="/register">Signup</a>
+    </div>
+    <div class="signup_link">
+     Back to HomePage? <a href="/">Click</a>
+    </div>
+  </form>
+
+  <div class="col-sm-20">
+    <div class="card">
+      <div class="card-body">
+        <a class="btn btn-block btn-social btn-google" href="/auth/google" role="button">
+          <i class="fab fa-google"></i>
+          Sign In with Google
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
